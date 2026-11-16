@@ -8,7 +8,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## My question and prompt
-
+hi
 Write your question and exact prompt here. Save the prompt as `prompts/01.txt` too.
 
 ## Original AI response
@@ -17,6 +17,7 @@ Paste the complete response here, including its explanation. Preserve the origin
 
 ```{r ai-original, eval=FALSE}
 # Paste the AI's original code here exactly as given.
+
 ```
 
 ## Verified analysis
