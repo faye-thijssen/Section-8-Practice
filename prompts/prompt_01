@@ -1,0 +1,13 @@
+I am analyzing face.csv, with 119 U.S. Senate races, 2000–2006. The
+variables d.comp and r.comp are the shares of raters judging each
+candidate more competent from a photo. d.votes and r.votes are their
+votes.
+Question: Does the Democrat’s perceived competence predict the
+Democratic vote margin?
+Write base-R code that:
+1. Creates the Democratic two-party vote share and the Democratic
+margin: d.share - (1 - d.share).
+2. Computes its correlation with d.comp.
+3. Fits lm(diff.share ~ d.comp).
+Do not report numbers you have not computed. Comment the code and
+list your assumptions.
